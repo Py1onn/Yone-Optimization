@@ -1,1 +1,7 @@
-In the following Yone Item folder there are two models that attempts to find the best builds. In each of them there is a option to change ratio of AP and AD damage which will influence the weights for selecting items. All functionalities and algorithms are documented in the attached pdf.
+A comprehensive analysis and optimization tool for Yone’s item builds in League of Legends. This repository uses a Weighted Multi-Criteria Decision Analysis (MCDA) approach to calculate the most effective item builds at full inventory, considering Yone's unique kit and various game-state assumptions.
+
+Features:
+Mathematical Modeling: Implements character power value (CPV) formulas to assess the impact of various stats like attack speed, critical strike chance, and defensive attributes.
+Item Build Optimization: Generates item builds based on stat weight analysis and statistical modeling.
+Heatmap Analysis: Visualizes stat importance using random sampling and correlation matrices (Pearson, Spearman, Kendall).
+Comparative Analysis: Benchmarks generated builds against reference builds from high-level players and community tools (e.g., Coachless and WayOfTheTempest).
