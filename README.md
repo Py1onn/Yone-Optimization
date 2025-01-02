@@ -1,0 +1,1 @@
+In the following Yone Item folder there are two models that attempts to find the best builds. In each of them there is a option to change ratio of AP and AD damage which will influence the weights for selecting items. All functionalities and algorithms are documented in the attached pdf.
